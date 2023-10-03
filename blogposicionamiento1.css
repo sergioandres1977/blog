@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    
+    }
+
+.contenedor{
+    background-color: rgb(231, 21, 21);
+    width: 90%;
+    max-width:  1000px;
+    margin:0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    width: 1000px;
+    padding: auto;
+    margin-top: 110px;
+}
+
+  
+header{
+    width: 100%;
+    background-color: rgb(104, 98, 158);
+   
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+header nav{
+    margin-right: 20px;
+    padding-right: 20px;
+}
+header a {
+    background-color: rgb(0, 217, 255);
+    width: 110px;
+    height: 25px;
+    position: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content{
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header .name{
+    background-color:  rgb(104, 98, 158);
+    width: 350px;
+    height: 25px;
+    position: end;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    margin: 0.2rem;
+    padding: initial;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+
+    img{
+        width: 100px;
+        border-radius: 200%;
+        margin: 1rem;       }
+       
+
+    
+    /**fin encabezado*/
+    /**comienzo menu principal*/
+    .contenedor main{
+        background-color: rgb(183, 242, 255);
+     width: 70%;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+   main .text-1{
+     margin-left: 30px;
+   }
+    /*fin menu principal*/
+    /*inicio barra lateral*/
+    .contenedor aside{
+        background-color: rgb(85, 0, 255);
+       
+       align-items: center;
+       display: flex;
+       width: 40%;
+       flex-direction: column;
+       flex-wrap: wrap;
+       width: 30%;
+       display: flex;
+       justify-content:center ;
+       text-align: center;
+    }
+  .contenedor   aside .boton1{
+        background-color: rgb(19,1,1); 
+       margin: 0.5rem;
+        height: 70px;
+       align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: rgb(85, 0, 255);  
+       width: 110%;
+            
+       display: flex;
+       justify-content: left;
+       align-items: center;
+    
+    
+       
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      
+       margin: 0; 
+    }
+ .contenedor   aside .boton2{
+        background-color: rgb(19, 1, 1); 
+        margin: 0.5rem;
+        height: 70px;
+       align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: rgb(85, 0, 255);
+        width: 110%;
+        
+         
+            display: flex;
+            justify-content: left;
+            align-items: center;
+         
+         
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            margin: 0; 
+        
+    }
+  
+
+     footer{
+        background-color: rgb(104, 98, 158);
+        width: 100%;
+        color: white;
+        line-height: 4rem;
+        text-align: center;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+footer a{
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+footer .content-2{
+    background-color: rgb(0, 217, 255);
+    width: 420px;
+    height: 25px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.m1{
+    color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(0, 217, 255);
+    width: 90px;
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0; 
+    
+}
+.m2{
+    color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color:rgb(0, 217, 255);
+    width: 90px;
+    height: 25px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0; 
+}
+.m3{
+    color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+        background-color:rgb(0, 217, 255);
+        width: 90px;
+        height: 25px;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin: 0;   
+    
+}
+.m4{
+    color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(0, 217, 255);
+    width: 90px;
+    height: 25px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0; 
+}
+
+
+  .space{
+      width: 170px
+  }
+    footer .content-3{
+        background-color: rgb(210, 150, 207);
+        width: 350px;
+        height: 25px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        color: black;
+        margin-bottom: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;    
+    }
+
+    .t1{
+        color: black;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        background-color: rgb(210, 150, 207);
+        width: 100px;
+        height: 25px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        margin: 0; 
+        
+    }
+    .t2{
+        color: black;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        background-color: rgb(210, 150, 207);
+        width: 110px;
+        height: 25px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        margin: 0; 
+    }
+    .t3{
+        color: black;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        
+            background-color: rgb(210, 150, 207);
+            width: 110px;
+            height: 25px;
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            margin: 0;   
+        
+    }
+
+    
+ 
